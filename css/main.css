@@ -1,0 +1,106 @@
+
+body{
+  
+ box-sizing: border-box;
+ color: #303030;
+ font-family: 'Raleway', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+.text-uppercase{
+  text-transform: uppercase;
+  font-weight:bold;
+  margin-bottom: 5px;
+}
+h1{
+  font-size: 50px;
+}
+nav a{
+  text-transform: uppercase;
+  margin: 10px;
+
+}
+a:hover{
+  color: #ff9800;
+}
+
+header{
+  position: relative;
+}
+nav{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  margin-left: 15%;
+}
+.logo-header{
+  width: 80px;
+  margin-left: 75%;
+
+}
+.logo-square{
+  width: 80%;
+}
+section{
+  text-align: center;
+}
+div{
+  
+    display: inline-block;
+    padding: 10px;
+  margin-top: 50px;
+  
+    box-sizing: border-box;
+    color: white;
+  }
+  h6 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .fs2{
+    width: 200px;
+  }
+  .fs3{
+    width: 300px;
+  }
+ 
+  footer {
+    background-color: #303030;
+    text-align: center;
+    padding: 5px;
+  
+  }
+  footer p{
+    color: white;
+  }
+  .btn{
+    background-color:#42d17e;
+    border:none;
+    color: white;
+    font-family: inherit;
+    padding: 10px;
+    text-decoration:none; 
+  
+  
+  }
+  .btn:hover{
+    background-color:#644721;
+  }
+   .s1{
+     background-image: url(../assets/images/bg-home.jpg);
+     height: 500px;
+   }
+   .s2{
+    background: #f17c72;
+    height: 600px;
+  }
+  .s3 div{
+    color: black;
+  }
+.s1 div a{
+
+  position:absolute;
+  top: 480px;
+  left: 600px;
+
+}
